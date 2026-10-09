@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration</h1>
+    <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+        <p>Skills:</p>
+        <input type="checkbox" id="html" name="skills" value="html">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" name="skills" value="css">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="python" name="skills" value="python"
+        <label for="python">PYTHON</label> 
+        <br><br>
+        <label for="course">Choose Course:</label>
+        <select id="course" name="course">
+            <option value="os">OS</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="C++">C++</option>
+            <option value="Cloud">Cloud</option>
+            <option value="C#">C#</option>
+        </select>
+        <br><br>
+        <label for="message">About Yourself:</label>
+        <br>
+        <textarea id="message" name="message" rows="4" cols="30"></textarea>
+        <br><br>
+        <button type="submit">Register</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

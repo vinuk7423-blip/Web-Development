@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <titla>Student marks</titla>
+</head>
+<body>
+    <h1>STUDENT_MARKS</h1>
+    <table border="1">
+        <caption>Semester Examination Results</caption>
+        <thead>
+            <tr>
+                <th>Student</th>
+                <th>HTML</th>
+                <th>CSS</th>
+                <th>JAVASCRIPT</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>VISMITHA</td>
+                <td>78</td>
+                <td>90</td>
+                <td>83</td>
+            </tr>
+            <tr>
+                <td>RAHUL</td>
+                <td>75</td>
+                <td>65</td>
+                <td>88</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>AVERAGE</th>
+                <td>85</td>
+                <td>80</td>
+                <td>85</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
